@@ -14,7 +14,7 @@ El parámetro numérico, "3" en el ejemplo, es opcional. Por defecto el programa
 
 ## Screenshot
 
-![scraping](https://github.com/erknrio/ariane-theme/blob/master/screenshots/scraping.jpg)
+![scraping](https://github.com/erknrio/link-url-scraping/blob/master/screenshot/scraping.jpg)
 
 ## TODO
 * Permitir el uso de URL relativas
