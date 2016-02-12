@@ -31,9 +31,8 @@ try:
                 # url absolutas
                 if valid_url(enlace["href"]):
                     print u"" + (whitespaces * saltos) + "---" +  enlace["href"]
-                    iteraciones -= 1
                     if iteraciones > 0:
-                        scrapingURL(enlace["href"], iteraciones, saltos + 1)
+                        scrapingURL(enlace["href"], iteraciones - 1, saltos + 1)
         elif status_code == 404:
             print u"Url inalcanzable"
 
